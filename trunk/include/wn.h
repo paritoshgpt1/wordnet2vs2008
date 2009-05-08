@@ -16,6 +16,7 @@
 #ifdef _WINDOWS
 
 void dprintf(const char * format, ...);
+
 #define DICTDIR         "\\dict"
 #define DEFAULTPATH	"C:\\Program Files\\WordNet\\2.1\\dict"
 #define DATAFILE	"%s\\data.%s"
